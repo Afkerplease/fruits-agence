@@ -1,10 +1,15 @@
 import "./App.css";
+import Header from "./Components/Header";
+import Grid from "./Components/Grid";
+import Testimonials from "./Components/Testimonials";
 
 function App() {
   return (
-    <main className="App">
-      <h1 class="text-3xl font-bold underline">Hello world!</h1>
-    </main>
+    <div className="">
+      <Header />
+      <Grid />
+      <Testimonials />
+    </div>
   );
 }
 
