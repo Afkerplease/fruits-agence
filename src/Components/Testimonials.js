@@ -5,11 +5,11 @@ import thomas from "../images/image-thomas.jpg";
 
 function Testimonials() {
   return (
-    <section className=" bg-[white] w-[375px] md:w-[1440px] mx-auto p-4 ">
+    <section className=" container bg-[white] w-[375px] md:w-[1440px] mx-auto p-4 ">
       <h1 className=" text-gray text-1xl text-center font-creative font-[700] uppercase  tracking-widest md:mt-10 md:text-3xl  ">
         Client Testimonials
       </h1>
-      <div className=" md:flex gap-5 md:p-20 ">
+      <div className=" md:flex gap-5 md:gap-8 md:p-20 ">
         <div className=" flex flex-col justify-center items-center  ">
           <img
             src={female}

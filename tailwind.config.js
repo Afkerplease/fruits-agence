@@ -22,6 +22,7 @@ module.exports = {
       Yellow: "hsl(51, 100%, 49%)",
       Softred: "hsl(7, 99%, 70%)",
       darkGren: "hsl(167, 40%, 24%)",
+      Darkmoderate: "hsl(168, 34%, 60%)",
     },
   },
   plugins: [],
